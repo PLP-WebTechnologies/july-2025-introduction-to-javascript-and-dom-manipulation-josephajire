@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f9e9;
+    color: #2e4d25;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #a3d379;
+    color: #1a311a;
+}
+
+/* Main content section */
+#content {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #d9f0c1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(46, 77, 37, 0.3);
+}
+
+/* List styling */
+#practicesList {
+    padding-left: 1.2rem;
+}
+
+/* Buttons styling */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.7rem 0.5rem 1rem 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b8e33;
+}
+
+/* Input box styling */
+input[type="text"] {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    width: 60%;
+}
+
+/* Status message styling */
+#statusMessage {
+    font-weight: bold;
+    color: #1a311a;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: #a3d379;
+    color: #1a311a;
+}
